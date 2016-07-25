@@ -17,8 +17,8 @@ try{
 
   var dots = {
     nb: 250,
-    distance: 100,
-    d_radius: 150,
+    distance: 80,
+    d_radius: 120,
     array: []
   };
 
