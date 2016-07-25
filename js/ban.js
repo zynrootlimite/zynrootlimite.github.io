@@ -5,7 +5,7 @@ try{
         $(function(){
   var canvas = document.querySelector('canvas'),
       ctx = canvas.getContext('2d')
-  canvas.width =  $(window).width();
+  canvas.width = document.body.offsetWidth;
   canvas.height = 200;
   ctx.lineWidth = .3;
   ctx.strokeStyle = (new Color(150)).style;
