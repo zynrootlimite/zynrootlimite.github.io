@@ -1,0 +1,25 @@
+/***demo1***/
+.demo1 {
+    position: relative;
+    text-align: center;
+    margin: 30px auto;
+    font-size: 16px;
+}
+.demo1 .note{
+    text-align: center;
+}
+.demo1-warrp .note span{
+    color: red !important;
+}
+.demo1:hover::after {
+    content: attr(data-title); //取到data-title属性的值
+    display: inline-block;
+    padding: 10px 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    position: absolute;
+    top: -50px;
+    left: 0;right: 0;
+    margin: 0 auto;
+    width: 160px;
+}

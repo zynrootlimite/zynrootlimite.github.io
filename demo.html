@@ -8,6 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="css/demo.css"/>
     <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
 </head>
 <body>
@@ -32,7 +33,11 @@
     </nav>
 </header>
 <div id="site_content">
-
+    <div class="demo1-warrp">
+        <p>比如我们要实现一个悬浮提示的功能。传统方法，使用title属性就能实现,可以使用css3提供的attr：能够在css中获取到元素的某个属性值，然后插入到伪元素的content中去。</p>
+        <div class="demo1" data-title="hello, world">hello...</div>
+        <code class="note">通过伪类元素:after的属性content来读取hello元素上面<span>data-title="hello, world"</span>，进行输出。</code>
+    </div>
 </div>
 
 <script type="text/javascript" src="js/jquery.min.js"></script>
