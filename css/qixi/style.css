@@ -12,7 +12,7 @@ html,body{
 	width: 100%;
 	min-width: 1202px;
 	height:775px;
-	background: url(../../../imagess/Tanabata_header_bg.jpg) no-repeat center;
+	background: url(../../../images/Tanabata_header_bg.jpg) no-repeat center;
 	background-size: cover;
 }
 .container-full{
