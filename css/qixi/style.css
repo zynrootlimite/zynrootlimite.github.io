@@ -1,0 +1,259 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	color: #333;
+	font-family: 'Microsoft YaHei';
+	background-color: #ff4f69;
+	position: relative;
+}
+#header{
+	position: relative;
+	width: 100%;
+	min-width: 1202px;
+	height:775px;
+	background: url(../image/Tanabata_header_bg.jpg) no-repeat center;
+	background-size: cover;
+}
+.container-full{
+	width: 100%;
+	min-width: 1202px;
+}
+.container{
+	width: 1202px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	margin-bottom:90px;
+}
+.Tanabata{
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	border-radius: 100px;
+	background-color: #f13f65;
+}
+.height_1{
+	position: relative;
+	height: 984px;
+}
+.height_2{
+	position: relative;
+	height: 1580px;
+}
+.Tanabata_title{
+	height: 102px;
+	margin-top: 20px;
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#bd69fb), to(#8f3bd5));
+	background: -moz-gradient(linear, 0 0, 0 100%, from(#bd69fb), to(#8f3bd5));
+	background: -o-gradient(linear, 0 0, 0 100%, from(#bd69fb), to(#8f3bd5));
+	background: gradient(linear, 0 0, 0 100%, from(#bd69fb), to(#8f3bd5));
+}
+.Tanabata_title_bg{
+	position: absolute;
+	width: 353px;
+	height: 36px;
+	top: 36px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	z-index: 999;
+}
+.Tanabata_title .Tanabata_title_font,.Tanabata_title .Tanabata_title_fonts{
+	position: absolute;
+	width: 100%;
+	top: 75px;
+	left: 0;
+	right: 0;
+	font-size: 16px;
+	color: #fdffe0;
+	text-align: center;
+}
+.Tanabata_title .Tanabata_title_fonts{
+	top:75px;
+	text-align: left;
+	padding-left: 32px;
+}
+.Tanabata_title_fonts p{
+	margin: 0;
+}
+.header_font{
+	position: absolute;
+	top: 590px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+.header_font p{
+	width: 100%;
+	font-size: 16px;
+	color: #fdec58;
+	text-align: center;
+}
+.Zhan_wei{
+	background-color: #f13f65;
+}
+.Tanabata_content{
+	// width: 1096px;
+	// margin: 0 auto;
+	height: 1317px;
+	background-color: #f13f65;
+}
+.Tanabata_list{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	color: #d93054;
+	background-color: #fdffe0;
+	list-style-type:none;
+}
+.Tanabata_list .list_title{
+	color: #770019;
+	background-color: #d93054;
+}
+.Tanabata_list li{
+	font-size: 0;
+	width: 100%;
+	border-bottom: 1px solid #d93054;
+	box-sizing: border-box;
+}
+.Tanabata_list li:last-of-type{
+	border-bottom: none;
+}
+.Tanabata_list li span{
+	display: inline-block;
+	width: 50%;
+	font-size: 28px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	box-sizing: border-box;
+}
+.Tanabata_list li span:last-of-type{
+	border-left: 2px solid #d93054;
+}
+.Tanabata_content h1{
+	margin-top: 45px;
+	font-size: 30px;
+	color: #fdffe0;
+	margin-bottom: 12px;
+}
+.Tanabata_rule_title{
+	width: 163px;
+	height: 45px;
+	font-size: 16px;
+	color: #fdffe0;
+	text-align: center;
+	line-height:45px;
+	border-radius: 20px;
+	margin-top: 35px;
+	background-color: #d93054;
+}
+.Tanabata_rule_con{
+	font-size: 14px;
+	color: #fdffe0;
+}
+.Tanabata_rule_con p{
+	margin-top: 20px;
+}
+.Tanabata_content .color_full{
+	position: relative;
+	width: 1096px;
+	height: 632px;
+	margin: 0 auto 0 auto;
+	padding-top: 50px;
+	background-color: #d93054;
+}
+.Tanabata_limit{
+	position: absolute;
+	left: 0;right: 0;
+	margin: 0 auto;
+	bottom: 60px;
+	text-align: center;
+	font-size: 18px;
+	color: #fbfce8;
+}
+.Tanabata_limit span{
+	font-size: 26px;
+}
+.Tanabata_content2,.Tanabata_content3{
+	background-color: #d93054;
+	height: 272px;
+	margin: 44px auto;
+	width: 1010px;
+}
+.Tan_W_lim{
+	margin: 0px auto;
+	width: 1010px;
+}
+.Tanabata_content3{
+	background-color: #f13f65
+}
+.Tanabata_list_contarir{
+	width: 600px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.Tanabata_list_contarir_h{
+	height: 37px;
+	width: 100%;
+	font-size: 0px;
+	overflow: hidden;
+	border-radius: 20px;
+	background-color: #f2e8da;
+	margin-bottom: 0 !important;
+}
+.Tanabata_list_contarir_h span{
+	display: inline-block;
+	font-size: 14px;
+	width: 300px;
+	height: 40px;
+	line-height: 37px;
+	color: #515151;
+	text-align: center;
+	cursor: pointer;
+
+	vertical-align: bottom;
+}
+.Tanabata_list_contarir_h .Activ{
+	background-color: #bb68f9;
+	color: #fff;
+	border-radius: 20px;
+}
+.Tanabata_list_contarir_C2{
+	display: none;
+}
+.Tanabata_lis4_title_1{
+	font-size: 0;
+	width: 100%;
+}
+.Tanabata_lis4_title_1 span{
+	display: inline-block;
+	font-size: 14px;
+	width: 25%;
+	color: #f2e8da;
+	height: 37px;
+	line-height: 37px;
+	text-align: center;
+}
+.Tanabata_xin,.Tanabata_xin_content .Tanabata_xin{
+	position: absolute;
+	left: 0;right: 0;
+	margin: 0 auto;
+	top: 150px;
+	width: 62px;
+	height: 54px;
+	line-height: 54px;
+	text-align: center;
+	background: url(../image/Tanabata_xin.png) no-repeat center;
+	background-size: cover;
+	z-index: 9999;
+	font-size: 25px;
+	color: #fdffe0;
+	font-weight: bold;
+}
+.Tanabata_xin_content .Tanabata_xin{
+	top: 46px;
+}
+.Tanabata_xin_content{
+	height: 80px;position: relative;
+}
