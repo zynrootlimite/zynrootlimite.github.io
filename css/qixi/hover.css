@@ -28,35 +28,35 @@ display:block;position: relative;}
 .back { z-index:1;transform: rotateY(-180deg);transform: rotateY(-180deg);-webkit-transform: rotateY(-180deg);-moz-transform: rotateY(-180deg);
 -ms-transform: rotateY(-180deg);-o-transform: rotateY(-180deg);}
 .front{
-	background: url(../image/front_bg.png) no-repeat center;
+	background: url(../../images/front_bg.png) no-repeat center;
 	background-size: contain;
 }
 .Circle_1{
-	background: url(../image/Circle_1.png) no-repeat center;
+	background: url(../../images/Circle_1.png) no-repeat center;
 	background-size: contain;
 }
 .Circle_2{
-	background: url(../image/Circle_2.png) no-repeat center;
+	background: url(../../images/Circle_2.png) no-repeat center;
 	background-size: contain;
 }
 .Circle_3{
-	background: url(../image/Circle_3.png) no-repeat center;
+	background: url(../../images/Circle_3.png) no-repeat center;
 	background-size: contain;
 }
 .Circle_4{
-	background: url(../image/Circle_4.png) no-repeat center;
+	background: url(../../images/Circle_4.png) no-repeat center;
 	background-size: contain;
 }
 .Circle_5{
-	background: url(../image/Circle_5.png) no-repeat center;
+	background: url(../../images/Circle_5.png) no-repeat center;
 	background-size: contain;
 }
 .Circle_6{
-	background: url(../image/Circle_6.png) no-repeat center;
+	background: url(../../images/Circle_6.png) no-repeat center;
 	background-size: contain;
 }
 .Circle_7{
-	background: url(../image/Circle_7.png) no-repeat center;
+	background: url(../../images/Circle_7.png) no-repeat center;
 	background-size: contain;
 }
 .back_note{
