@@ -550,6 +550,7 @@ ul#nav li a:hover,ul#nav li a:focus {
   right:0;
   margin:0 auto;
   animation: 1s ease 0.2s normal both 1 running fadeInDown;
+  z-index: 9999;
 }
 @keyframes fadeInDown {
   0% {

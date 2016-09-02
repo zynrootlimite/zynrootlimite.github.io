@@ -55,3 +55,30 @@ body,html{
     display: inline-block;
     width: 25%;
 }
+iframe{
+    display: block;
+    margin: 20px auto;
+    width: 375px;
+    height: 667px;
+    verflow-y:hidden; overflow-x:hidden;
+}
+#view body,iframe body{
+    overflow-y: hidden;
+    visibility:collapse !important;
+}
+.view{
+    position: relative;
+}
+.view h2{
+    width: 100%;
+    text-align: center;
+}
+.view .fade{
+    position: absolute;
+    right: 50%;
+    margin-right: -188px;
+    top: 0;
+    height: 720px;
+    width: 17px;
+    background-color: #F9F9F9;
+}
