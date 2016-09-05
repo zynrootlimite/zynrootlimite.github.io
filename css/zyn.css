@@ -26,7 +26,8 @@ body,html{
     margin-top: 5px;
 }
 .floor_one{
-    width: 100%;
+    width: 50%;
+    margin: 0 auto;
     height: 41px;
     color: #ffffff;
     text-align: center;
